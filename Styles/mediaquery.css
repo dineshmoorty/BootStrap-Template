@@ -1,0 +1,38 @@
+@media screen and (max-width:420px) {
+
+  .hero-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:992px) {
+  .laptop {
+    display: none;
+  }
+}
+@media screen and (min-width:992px) {
+  .hero-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  body{
+    margin: 0 3em;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-img {
+    display: none;
+  }
+}
