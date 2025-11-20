@@ -13,7 +13,7 @@
 <body>
   <!-- Header and Navigation -->
   <header>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><h1>iLanding</h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,19 +33,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#Pricing">Pricing</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Contact Us</a>
+              <a class="nav-link" href="#contact" >Contact Us</a>
             </li>
           </ul>
           <a href="#" class="btn btn-primary nav-get-link">Get Started</a>
@@ -151,7 +140,7 @@
       </div>
     </section>
     <!-- About Section -->
-    <section class="about-section mt-5">
+    <section class="about-section mt-5" id="About">
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="about-container">
@@ -215,7 +204,7 @@
       </div>
     </section>
     <!-- Features -->
-    <section class="features">
+    <section class="features" id="Features">
     <div class="features-container mt-5">
       <div class="title">
         <h1 class="text-center feature-title">Features</h1>
@@ -595,7 +584,7 @@
           </div>
       </section>
     <!-- Pricing Section -->
-      <section class="price">
+      <section class="price" id="Pricing">
       <div class="container-fluid">
         <div class="serviceTitle mb-5">
           <h1>Pricing</h1>
@@ -733,7 +722,7 @@
       </div>
      </section>
     <!-- CallAction -->
-     <section class="callAction mt-5 ">
+     <section class="callAction mt-5 " id="contact" >
       <div class="container-fluid mb-5">
         <div class="action">
           <h1 class="fw-semibold">Call to Action</h1>
